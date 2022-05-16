@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | [Blogr]</title>
+  <title>Blogr</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -23,9 +23,9 @@
 
   <div class="container maindiv">
     <div class="container topcard">
-    <nav class="navbar navbar-expand-md navbar-light" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
         <div class="container">
-        <img src="./images/logo.svg" alt="">
+        <img src="./images/logo.svg" alt="" id="logo" class="imgfluid">
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
                 <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Product
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu dropdownMenu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Overview</a></li>
                   <li><a class="dropdown-item" href="#">Pricing</a></li>
                   <li><a class="dropdown-item" href="#">Marketplace</a></li>
@@ -51,7 +51,7 @@
                 <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Company
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu dropdownMenu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">About</a></li>
                   <li><a class="dropdown-item" href="#">Team</a></li>
                   <li><a class="dropdown-item" href="#">Blog</a></li>
@@ -64,7 +64,7 @@
                 <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Connect
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu dropdownMenu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Contact</a></li>
                   <li><a class="dropdown-item" href="#">Newsletter</a></li>
                   <li><a class="dropdown-item" href="#">LinkedIn</a></li>
@@ -93,19 +93,20 @@
   <p class="text-center grow">Grow your audience and build your online brand</p>
 
   <div class="row primaryBtnDiv">
-  <button class="btn btn-light border-dark col-4 rounded-pill startBtn">Start for Free</button>
-  <button class="btn btn-light border-dark col-4 rounded-pill learnMore">Learn More</button>
+  <button class="col-4 rounded-pill startBtn">Start for Free</button>
+  <button class="col-4 rounded-pill learnMore">Learn More</button>
 </div>
 
 </div>
 
-  Designed for the future
+ <h1 id="designedFor" class="text-center heads">Designed for the future</h1> 
+ <img src="./images/illustration-editor-mobile.svg" alt="" id="editorImg">
 
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
+  <h1 id="introducing" class="text-center heads">Introducing an extensible editor</h1>
+  <p id="firstPar" class="text-center">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+    The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+    videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+    change the looks of a blog.</p>
 
   Robust content management
   Flexible content management enables users to easily move through posts. Increase the usability of your blog 

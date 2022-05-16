@@ -4,9 +4,16 @@ body{
     display: flex;
     flex-direction: column;
 }
+.maindiv{
+    padding-left: 0;
+    padding-right: 0;
+    margin:0;
+    width: 100%;
+}
 
 nav{
    margin-bottom: 15px;
+   padding-top: 25px;
 }
 .primaryBtnDiv{
     display: flex;
@@ -15,22 +22,61 @@ nav{
 
 }
 .topcard{
-    background-image:linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-image:linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%)),url(./images/bg-pattern-intro-mobile.svg);
     font-family:'Overpass',sans-serif;
     color: white;
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 0 25px;
     font-weight: 600;
+    padding-top: 25px;
+    margin-bottom: 25px;
 }
 .grow{
     font-weight: 300;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .startBtn{
     
     color: hsl(353, 100%, 62%);
     border-color: transparent;
+    width: 125px;
+    height: 35px;
+}
+.learnMore{
+    background-color: transparent;
+    margin-top: 5px;
+    width: 125px;
+    color: white;
+    border-color: white;
+    height: 35px;
 }
 .signUpLi{
-    margin-left: 15px;
+    margin-top: 10px;
+}
+.primaryBtnDiv{
+    flex-direction: column;
+    align-items: center;
+
+}
+.dropdownMenu{
+    background-color: transparent;
+    border-color: transparent;
+}
+.dropdown-item{
+    color: white;
+}
+#editorImg{
+   transform: translate(-15px,0);
+}
+.heads{
+    font-family: 'Ubuntu', sans-serif;
+    color: hsl(208, 49%, 24%);
+    font-weight: 800;
+}
+#firstPar{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    color: hsl(207, 13%, 34%);
 }
 
 
@@ -39,11 +85,20 @@ nav{
 
 
 
-@media (max-width: 400px){
-
-    .primaryBtnDiv{
-        flex-direction: column;
-        align-items: center;
-
+@media (min-width: 800px){
+    .signUpLi{
+        margin-top: 0;
+        margin-left: 10px;
     }
+    .dropdownMenu{
+        background-color: white;
+        
+    }
+    .dropdown-item{
+        color: black;
+    }
+    #logo{
+        margin-right: 25px;
+    }
+    
 }
